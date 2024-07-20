@@ -28,7 +28,7 @@ jobs:
       - name: docker build
         run: |
           docker build ./dependency -t kobrostech/odoo_dependency
-          docker build ./dependency -t kobrostech/odoo17
+          docker build ./17 -t kobrostech/odoo17
       
       - name: docker push
         run: |
